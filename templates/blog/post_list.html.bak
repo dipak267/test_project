@@ -2,7 +2,7 @@
 {%extends 'blog/base.html'%}
 {%block title_block%}DIPAK'S BLOG HOME PAGE{%endblock%}
 {%block content%}
-<h1>DIPAK'S New BLOG</h1>
+<h1>DIPAK'S BLOG</h1>
 {%if tag%}
 <h2>Posts tagged with '{{tag.name}}'</h2>
 {%endif%}
